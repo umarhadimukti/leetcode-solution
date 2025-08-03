@@ -4,7 +4,7 @@ const twoSum = (nums: number[], target: number) =>
     const myMap = new Map<number, number>();
 
     // loop nums
-      for (let i = 0; i < nums.length; i++) {
+    for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i]; // 9,7,6,5,2
 
         if (myMap.has(complement) ) {
